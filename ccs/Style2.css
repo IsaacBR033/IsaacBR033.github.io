@@ -1,0 +1,116 @@
+body{
+    background-color:cornsilk;
+}
+header,nav,main,footer{
+    width:960px;
+    margin:0 auto;
+    padding:30px;
+    color:#f4f1bb;
+}
+header{
+    background-color: #ED6A54;
+    height:150px;
+    text-align: center;
+}
+nav{
+    background-color: #9BC1C6;
+    height: 80px;
+}
+main{
+    background-color: #f4f1bb;
+}
+{
+    background-color:#ED6A5A;
+}
+footer{
+    background-color: ED6A5A;
+    text-align: center;
+}
+section{
+    width: 600px;
+    height: auto;
+    background-color: #36c9c9;
+    margin: 20px auto;
+    padding: 20px;
+    display: inherit;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+}
+table,table td,table th{
+    border: 3px solid #ED6A5A;
+}
+table th{
+    background-color: #ED6A5A;
+    color: #f4f1bb;
+    height: 50px;
+}
+table td{
+    background-color: #e6ebe0;
+    color: #ED6A5A;
+    padding: 10px;
+}
+img{
+    width:100px;
+    height: auto;
+}
+#tabla_2, #tabla_2 td{
+    background-color: transparent;
+    border: none;
+}#tabla_zebra {
+}
+#tabla_zebra thead th {
+    background-color: #222D41;
+}
+
+#tabla_zebra td {
+    background-color: transparent;
+}
+#tabla_zebra tbody tr:nth-child(even)  {
+    background-color: #465771;
+}
+#tabla_zebra tbody tr:nth-child(odd) {
+    background-color: #9BC1C6;
+}
+#tabla_hover {
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+#tabla_hover tbody td {
+    background-color: transparent;
+}
+#tabla_hover tbody tr:hover  {
+    background-color: #AD0000;
+}
+body nav ul {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+body nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #5A5959;
+}
+body nav ul li a {
+    text-decoration: none;
+}
+body nav ul a:link, body nav ul a:link visited {
+    color: #ED6A54;
+}
+body nav ul a:hover {
+    color: #F4F1BB;
+}
+body nave ul li a:link, {
+    text-decoration: none;
+    color: #36C9C9;
+}
+.img_contacto {
+    width: 300px;
+}
